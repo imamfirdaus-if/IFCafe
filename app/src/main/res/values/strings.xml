@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IF Cafe</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="judul">Judul</string>
+    <string name="harga">Harga</string>
+    <string name="deskripsi">Deskripsi</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:layout_margin="20dp"
+    android:background="@color/teal_200"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_photo"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@color/teal_200"/>
+
+    <TextView
+        android:id="@+id/food_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="Food Name"/>
+
+    <TextView
+        android:id="@+id/food_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="Rp. 10000"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
